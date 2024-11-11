@@ -4,6 +4,7 @@ title: EduVaultAI Blog
 theme: ["PaperMod"]
 pagination:
   pagerSize: 5
+paginate: 5
 
 enableRobotsTXT: true
 minify:
@@ -25,10 +26,10 @@ params:
 
   # --- Welcome intro ---
   homeInfoParams:
-    Title: "EduVaultAI.app Odyssey 👋"
+    Title: "EduVaultAI.app Odyssey"
     Content: "
-      Hello there 👋. Welcome to the journey blog for the EduVaultAI app.
-      Might we suggest you answer the question, [What is EduVaultAI?](/posts/what-is-eduvaultai)
+      Welcome to the EduVaultAI project odyssey! 🚀 We're a team of computer science students building the EduVaultAI app. Follow the journey as we track progress, tackle challenges, and share key insights/milestones. ✨
+      Curious about, [*What is EduVaultAI?*](/posts/what-is-eduvaultai) 👀
     "
 
   # --- Post info ---
@@ -57,17 +58,17 @@ params:
   #   safari_pinned_tab: "/safari-pinned-tab.svg"
 
 # Optional Menu Options.
-# menu:
-#   main:
-#     - identifier: categories
-#       name: categories
-#       url: /categories/
-#       weight: 10
-#     - identifier: tags
-#       name: tags
-#       url: /tags/
-#       weight: 20
-#     - identifier: example
-#       name: example.org
-#       url: https://example.org
-#       weight: 30
+menu:
+  main:
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
