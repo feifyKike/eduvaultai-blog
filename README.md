@@ -15,6 +15,21 @@ Running the site locally in draft mode (i.e. shows all `draft: true` posts)
 hugo server -D
 ```
 
+## Creating a post
+```
+hugo new posts/name-of-post-like-these.md
+```
+Also note that Hugo does not like the pages to be created while running. So stop and then run the above command. Rerunning with:
+```
+hugo server -D --ignoreCache
+```
+might help.
+
+If removing a post run this afterwards to clean directories:
+```
+hugo --cleanDestinationDir
+```
+
 ## Deploying the Site
 ### Configuration
 Make the following changes:
@@ -29,3 +44,9 @@ When you publish your site, you typically do not want to include draft, future, 
 
 ### To Github Pages.
 https://gohugo.io/hosting-and-deployment/hosting-on-github/
+
+## Chosen Theme
+https://github.com/adityatelange/hugo-PaperMod
+
+### Customizations doc
+https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features

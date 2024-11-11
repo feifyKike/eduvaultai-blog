@@ -2,3 +2,72 @@ baseURL: https://example.org/
 languageCode: en-us
 title: EduVaultAI Blog
 theme: ["PaperMod"]
+pagination:
+  pagerSize: 5
+
+enableRobotsTXT: true
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: EduVaultAI Blog
+  description: "EduVaultAI.app Odyssey Blog."
+  keywords: [Blog, EdTech, AI, App]
+  author: ["Maxim Shelepov", "Kerneep Sandhu"]
+
+  # socialIcons:
+  #   - name: "<platform>"
+  #     url: "<link>"
+  #   - name: "<platform 2>"
+  #     url: "<link2>"
+
+  # --- Welcome intro ---
+  homeInfoParams:
+    Title: "EduVaultAI.app Odyssey 👋"
+    Content: "
+      Hello there 👋. Welcome to the journey blog for the EduVaultAI app.
+      Might we suggest you answer the question, [What is EduVaultAI?](/posts/what-is-eduvaultai)
+    "
+
+  # --- Post info ---
+  DateFormat: "2006-01-01"
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShareButtons: ['linkedin', 'x', 'telegram']
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # Favicon stuff.
+  # assets:
+  #   favicon: "/favicon.ico"
+  #   favicon16x16: "/favicon-16x16.png"
+  #   favicon32x32: "/favicon-32x32.png"
+  #   apple_touch_icon: "/apple-touch-icon.png"
+  #   safari_pinned_tab: "/safari-pinned-tab.svg"
+
+# Optional Menu Options.
+# menu:
+#   main:
+#     - identifier: categories
+#       name: categories
+#       url: /categories/
+#       weight: 10
+#     - identifier: tags
+#       name: tags
+#       url: /tags/
+#       weight: 20
+#     - identifier: example
+#       name: example.org
+#       url: https://example.org
+#       weight: 30
