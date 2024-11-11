@@ -18,11 +18,9 @@ params:
   keywords: [Blog, EdTech, AI, App]
   author: ["Maxim Shelepov", "Kerneep Sandhu"]
 
-  # socialIcons:
-  #   - name: "<platform>"
-  #     url: "<link>"
-  #   - name: "<platform 2>"
-  #     url: "<link2>"
+  socialIcons:
+    - name: "rss"
+      url: "" # automatically generated..? Seems like it.
 
   # --- Welcome intro ---
   homeInfoParams:
@@ -72,3 +70,8 @@ menu:
     #   name: example.org
     #   url: https://example.org
     #   weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
