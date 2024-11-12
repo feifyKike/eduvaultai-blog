@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://feifyKike.github.io/eduvaultai-blog/sitemap.xml
+Sitemap: https://blog.eduvaultai.com/sitemap.xml
