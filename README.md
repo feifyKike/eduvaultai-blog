@@ -11,23 +11,30 @@
 https://gohugo.io/getting-started/quick-start/
 
 Running the site locally in draft mode (i.e. shows all `draft: true` posts)
-```
+```bash
 hugo server -D
 ```
 
 ## Creating a post
-```
+```bash
 hugo new posts/name-of-post-like-these.md
 ```
 Also note that Hugo does not like the pages to be created while running. So stop and then run the above command. Rerunning with:
-```
+```bash
 hugo server -D --ignoreCache
 ```
 might help.
 
 If removing a post run this afterwards to clean directories:
-```
+```bash
 hugo --cleanDestinationDir
+```
+
+## Before pushing...
+To prepare for deployment to `main`:
+```bash
+hugo --cleanDestinationDir # in order to clear the public/ directory.
+hugo # to rebuild without drafts.
 ```
 
 ## Deploying the Site
