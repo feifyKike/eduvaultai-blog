@@ -6,7 +6,8 @@
 ### Summary
 1. Install Hugo prerequisites: Git, Go, Dart Sass
 2. Install Hugo: `CGO_ENABLED=1 go install -tags extended,withdeploy github.com/gohugoio/hugo@latest`
-
+**For Windows, use this command in step 2:**
+`set CGO_ENABLED=1 && go install -tags extended,withdeploy github.com/gohugoio/hugo@latest`
 ## Running Hugo Static Site Server
 https://gohugo.io/getting-started/quick-start/
 
