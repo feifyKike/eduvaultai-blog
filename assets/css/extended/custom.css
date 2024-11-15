@@ -1,0 +1,40 @@
+/* override theme colors */
+:root {
+    --gap: 24px;
+    --tint: rgb(6, 182, 212);;
+    --border: rgb(207, 207, 207)
+}
+
+.first-entry {
+    min-height: 200px;
+    margin: var(--gap) 0 var(--gap) 0;
+    text-align: left;
+}
+
+.post-entry {
+    padding: 1rem 1.5rem;
+    transition: none;
+    border: 1px solid var(--border);
+}
+
+.post-entry:active {
+    transform: none;
+}
+
+.post-tags {
+    position: relative;
+    flex-wrap: wrap;
+    /* top, right, bottom, left */
+    padding: 10px 0 10px 0;
+    gap: 0px;
+}
+
+.post-tags a {
+    padding: 2px 5px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.post-meta {
+    display: inline-block;
+}

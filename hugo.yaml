@@ -3,10 +3,12 @@ languageCode: en-us
 title: EduVaultAI Blog
 theme: ["PaperMod"]
 pagination:
-  pagerSize: 5
-paginate: 5
+  pagerSize: 10
 
 enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 minify:
   disableXML: true
   minifyOutput: true
@@ -20,7 +22,12 @@ params:
 
   socialIcons:
     - name: "rss"
-      url: "" # automatically generated..? Seems like it.
+      title: RSS Feed
+      url: "/index.xml"
+    # If requested.
+    # - name: "email"
+    #   title: Subscribe to newsletter
+    #   url: "https://cdn.forms-content.sg-form.com/a315c4fd-a13e-11ef-b026-4e96dbe17048"
 
   # --- Welcome intro ---
   homeInfoParams:
@@ -58,20 +65,21 @@ params:
 # Optional Menu Options.
 menu:
   main:
-    # - identifier: categories
-    #   name: categories
-    #   url: /categories/
-    #   weight: 10
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 2
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
-    # - identifier: example
-    #   name: example.org
-    #   url: https://example.org
-    #   weight: 30
+      weight: 3
 
 outputs:
   home:
     - HTML
     - RSS
+    - JSON

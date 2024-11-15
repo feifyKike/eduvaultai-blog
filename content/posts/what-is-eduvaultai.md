@@ -6,7 +6,7 @@ draft: true
 author: "Me"
 weight: 1 # pin post.
 # aliases: ["/first"]
-tags: ["Call to Adventure"]
+tags: ["Call to Adventure", "Another Tag"]
 # cover:
 #     image: "<image path/url>" # image path/url
 #     alt: "<alt text>" # alt text
