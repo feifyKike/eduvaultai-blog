@@ -58,3 +58,6 @@ https://github.com/adityatelange/hugo-PaperMod
 
 ### Customizations doc
 https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features
+
+## Credit
+https://github.com/nelsonfigueroa/nelson.cloud
