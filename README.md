@@ -53,11 +53,9 @@ When you publish your site, you typically do not want to include draft, future, 
 ### To Github Pages.
 https://gohugo.io/hosting-and-deployment/hosting-on-github/
 
-## Chosen Theme
-https://github.com/adityatelange/hugo-PaperMod
-
 ### Customizations doc
 https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features
 
-## Credit
-https://github.com/nelsonfigueroa/nelson.cloud
+## Themes + Packages
+Theme: https://github.com/adityatelange/hugo-PaperMod
+Comments via Github Discussions: https://giscus.app

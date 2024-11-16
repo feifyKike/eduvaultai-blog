@@ -22,7 +22,6 @@
 {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
 {{- end -}}
 
-<!-- Source: https://github.com/nelsonfigueroa/nelson.cloud/blob/master/layouts/partials/post_meta.html -->
 {{- $tags := .Language.Params.Taxonomies.tags | default "tags" }}
 {{- with .Params.tags -}}
     <br>

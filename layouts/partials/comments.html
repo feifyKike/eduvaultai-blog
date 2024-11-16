@@ -18,14 +18,13 @@
   async>
 </script>
 
-<!-- Source: https://github.com/nelsonfigueroa/nelson.cloud -->
 <script>
-  var giscusTheme = "light"
+  var theme = "light"
   if (document.body.classList.contains('dark')) {
-    giscusTheme = 'dark_dimmed'
+    theme = 'dark_dimmed'
   }
 
-  let giscusAttributes = {
+  let attrs = {
     "src": "https://giscus.app/client.js",
     "data-repo": "feifyKike/eduvaultai-blog",
     "data-repo-id": "R_kgDONNrwyQ",
@@ -35,17 +34,17 @@
     "data-reactions-enabled": "1",
     "data-emit-metadata": "0",
     "data-input-position": "bottom",
-    "data-theme": giscusTheme,
+    "data-theme": theme,
     "data-lang": "en",
     "crossorigin": "anonymous",
     "async": "",
   };
 
-  let giscusScript = document.createElement("script");
-  Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+  let giscus = document.createElement("script");
+  Object.entries(attrs).forEach(([key, value]) => giscus.setAttribute(key, value));
 
   const postComments = document.querySelector('.post-comments')
-  postComments.appendChild(giscusScript)
+  postComments.appendChild(giscus)
 
 </script>
 
