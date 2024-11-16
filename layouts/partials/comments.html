@@ -1,0 +1,52 @@
+{{- /* Comments area start */ -}}
+{{- /* to add comments read => https://gohugo.io/content-management/comments/ */ -}}
+
+<!-- Source: https://giscus.app -->
+<script src="https://giscus.app/client.js"
+  data-repo="feifyKike/eduvaultai-blog"
+  data-repo-id="R_kgDONNrwyQ"
+  data-category="Announcements"
+  data-category-id="DIC_kwDONNrwyc4CkT8D"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="dark_dimmed"
+  data-lang="en"
+  crossorigin="anonymous"
+  async>
+</script>
+
+<!-- Source: https://github.com/nelsonfigueroa/nelson.cloud -->
+<script>
+  var giscusTheme = "light"
+  if (document.body.classList.contains('dark')) {
+    giscusTheme = 'dark_dimmed'
+  }
+
+  let giscusAttributes = {
+    "src": "https://giscus.app/client.js",
+    "data-repo": "feifyKike/eduvaultai-blog",
+    "data-repo-id": "R_kgDONNrwyQ",
+    "data-category": "Announcements",
+    "data-category-id": "DIC_kwDONNrwyc4CkT8D",
+    "data-mapping": "pathname",
+    "data-reactions-enabled": "1",
+    "data-emit-metadata": "0",
+    "data-input-position": "bottom",
+    "data-theme": giscusTheme,
+    "data-lang": "en",
+    "crossorigin": "anonymous",
+    "async": "",
+  };
+
+  let giscusScript = document.createElement("script");
+  Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+
+  const postComments = document.querySelector('.post-comments')
+  postComments.appendChild(giscusScript)
+
+</script>
+
+{{- /* Comments area end */ -}}
