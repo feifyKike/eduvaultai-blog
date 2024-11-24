@@ -2,7 +2,7 @@
 title: 'What Is EduVaultAI?'
 summary: "Dive into what EduVaultAI is all about and meet the team."
 date: '2024-11-02'
-draft: true
+draft: false
 author: 'Creators'
 weight: 1 # pin post.
 tags: ["Call to Adventure"]
