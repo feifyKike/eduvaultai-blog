@@ -3,7 +3,7 @@ title: 'What Is EduVaultAI?'
 summary: "Dive into what EduVaultAI is all about and meet the team."
 date: '2024-11-02'
 draft: false
-author: 'Creators'
+author: 'Maxim Shelepov'
 weight: 1 # pin post.
 tags: ["Call to Adventure"]
 ---
