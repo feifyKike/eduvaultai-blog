@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Call to Adventure on EduVaultAI Blog</title>
-    <link>http://localhost:1313/tags/call-to-adventure/</link>
+    <link>https://blog.eduvaultai.com/tags/call-to-adventure/</link>
     <description>Recent content in Call to Adventure on EduVaultAI Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/call-to-adventure/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.eduvaultai.com/tags/call-to-adventure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Is EduVaultAI?</title>
-      <link>http://localhost:1313/posts/what-is-eduvaultai/</link>
+      <link>https://blog.eduvaultai.com/posts/what-is-eduvaultai/</link>
       <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/what-is-eduvaultai/</guid>
+      <guid>https://blog.eduvaultai.com/posts/what-is-eduvaultai/</guid>
       <description>Dive into what EduVaultAI is all about and meet the team.</description>
     </item>
   </channel>

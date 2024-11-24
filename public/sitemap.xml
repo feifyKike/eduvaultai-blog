@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/what-is-eduvaultai/</loc>
+    <loc>https://blog.eduvaultai.com/posts/what-is-eduvaultai/</loc>
     <lastmod>2024-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/call-to-adventure/</loc>
+    <loc>https://blog.eduvaultai.com/tags/call-to-adventure/</loc>
     <lastmod>2024-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://blog.eduvaultai.com/</loc>
     <lastmod>2024-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://blog.eduvaultai.com/posts/</loc>
     <lastmod>2024-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://blog.eduvaultai.com/tags/</loc>
     <lastmod>2024-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://blog.eduvaultai.com/categories/</loc>
   </url>
 </urlset>
