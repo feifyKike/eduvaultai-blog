@@ -64,6 +64,8 @@ Computer science senior at North Carolina State University and previously a Full
 👔 [LinkedIn](https://www.linkedin.com/in/maxim-shelepov1/) | 🌐 [Personal Website](https://maxshelepov.com) | 👨🏻‍💻 [GitHub](https://github.com/feifyKike)
 
 ### Kerneep Sandhu (Software Engineer)
+Computer science junior and previously an undergraduate CS researcher at North Carolina State University.
+👔 [LinkedIn](https://www.linkedin.com/in/kerneep-s)  
 
 # Up Next...
 Stayed tuned for sneak peak into our progress and where we are in development... see ya!
